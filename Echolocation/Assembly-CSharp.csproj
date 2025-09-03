@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C84E46D4-9E9A-1F1C-8D38-78E8BEC10EEF}</ProjectGuid>
+    <ProjectGuid>{109E0F77-3694-F7AF-82FA-FBBCDC0B2815}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -69,9 +69,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Wwise\Version.txt" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\PluginInfo.xml" />
     <None Include="Assets\StarterAssets\license.txt" />
     <None Include="Assets\WwiseSettings.xml" />
     <None Include="Assets\StreamingAssets\desc.txt" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\PlatformInfo.xml" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\New_SoundBank.txt" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\Init.txt" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\ProjectInfo.xml" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+    <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\Main.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -845,43 +852,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.csproj">
-      <Project>{E27BC069-719E-58DF-CBF3-236AE182A591}</Project>
+      <Project>{7B609F1A-F804-6C3C-7D34-34A4AA596D66}</Project>
       <Name>AK.Wwise.Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
-      <Project>{9D2ED18E-7069-96F0-2628-C23C98AFD9B9}</Project>
+      <Project>{9AF593A2-46D4-0456-5448-DD64CB4AAAB8}</Project>
       <Name>AK.Wwise.Unity.API.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.csproj">
-      <Project>{D5E9395D-E9AC-6020-5F58-802FFA790317}</Project>
+      <Project>{B5A0C2C1-93AB-EF1B-2479-D4D33764F4DA}</Project>
       <Name>AK.Wwise.Unity.API</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableUpdater.csproj">
-      <Project>{08C17CFF-8054-06D6-C3EA-D6F35B8656CE}</Project>
+      <Project>{C31516D8-E8C5-637D-1690-1E4A2309F5DC}</Project>
       <Name>AK.Wwise.Unity.AddressableUpdater</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj">
-      <Project>{5C3F487F-E18B-E117-C575-B0BA862ACC7E}</Project>
+      <Project>{4A56C180-5525-FB8B-CB93-4E2253882B5C}</Project>
       <Name>AK.Wwise.Unity.AddressableInstaller</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
-      <Project>{29AFD757-F22E-6524-F9DB-82112E124002}</Project>
+      <Project>{FFEB7456-1896-05F2-D6A6-F7D2CEA3C926}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour</Name>
     </ProjectReference>
     <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
-      <Project>{9B524390-BBBC-21FD-4277-88CE7A3BB02E}</Project>
+      <Project>{9C93B95B-F894-6300-6802-436CE35C2639}</Project>
       <Name>Ak.Wwise.Api.WAAPI</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Editor.csproj">
-      <Project>{C92FD38A-0F40-1975-CB6F-77894C7DC82A}</Project>
+      <Project>{B7514A1B-A485-34F6-6FB3-E37A18A46CB5}</Project>
       <Name>AK.Wwise.Unity.MonoBehaviour.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
-      <Project>{C94CFCF2-7404-5403-36B0-76C8F67DE2F8}</Project>
+      <Project>{4EA7E747-79F5-CCF5-6A24-787A64356362}</Project>
       <Name>AK.Wwise.Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
-      <Project>{8B33A071-2792-576F-E479-9C961BA09419}</Project>
+      <Project>{12B632FD-9D36-4098-53A9-130C00624108}</Project>
       <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
     </ProjectReference>
   </ItemGroup>

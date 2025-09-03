@@ -27,7 +27,7 @@ WwiseProject/.cache/
 
 # Generated binary audio data. Re-generate from the Wwise project.
 # Some teams prefer to check these in, but it's often better to generate them as a build step.
-/[Ww]iseProject/GeneratedSoundBanks/
+#/[Ww]iseProject/GeneratedSoundBanks/
 
 # ========================================= #
 # Visual Studio / Rider Generated           #
