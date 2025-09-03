@@ -3,6 +3,7 @@
 	<PluginLibs>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+		<PluginLib LibName="Steam Audio Spatializer" LibId="1987253171" Type="Effect" DLL="SteamAudioWwise" StaticLib="SteamAudioWwiseFX"/>
 	</PluginLibs>
-	<FileHash>{0A13F4BA-B100-584C-1D1C-B9267B7D267A}</FileHash>
+	<FileHash>{7BD47317-6BDF-99E1-1E39-EEDD38EF9CEC}</FileHash>
 </PluginInfo>

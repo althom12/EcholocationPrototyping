@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2879116096	Play_emotional_guitar_loop_02_301396			\Default Work Unit\Play_emotional_guitar_loop_02_301396	
+
+Effect plug-ins	ID	Name	Type				Notes
+	198026755	Steam Audio Spatializer (Custom)	Steam Audio Spatializer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	184367809	emotional-guitar-loop-02-301396	C:\Unity\EcholocationPrototyping\Echolocation\Echolocation_WwiseProject\.cache\Windows\SFX\emotional-guitar-loop-02-301396_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\emotional-guitar-loop-02-301396		3608160
+

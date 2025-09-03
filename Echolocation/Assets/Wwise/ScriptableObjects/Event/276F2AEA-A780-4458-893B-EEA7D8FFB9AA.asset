@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0929311a1a6906642b9bc541e428054c, type: 3}
+  m_Name: 276F2AEA-A780-4458-893B-EEA7D8FFB9AA
+  m_EditorClassIdentifier: 
+  objectName: Play_emotional_guitar_loop_02_301396
+  id: 2879116096
+  guid: 276F2AEA-A780-4458-893B-EEA7D8FFB9AA

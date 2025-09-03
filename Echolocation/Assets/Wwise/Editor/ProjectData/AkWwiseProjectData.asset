@@ -66,8 +66,36 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9e0642c517eb9c4b8ff43150162f2ac3
     GuidInternal: 
-    m_lastTime: -8584446780330044420
-    List: []
+    m_lastTime: -8584446759874405437
+    List:
+    - name: Main
+      guid: 7d975b498592714294a8084650734477
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9e0642c517eb9c4b8ff43150162f2ac3
+      - ElementName: Main
+        ObjectType: 7
+        guid: 7d975b498592714294a8084650734477
+      Path: SoundBanks\Default Work Unit\Main
+    - name: New_SoundBank
+      guid: eb6a2129dc44b64baeea7ea4ee64e37a
+      id: 4072029455
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9e0642c517eb9c4b8ff43150162f2ac3
+      - ElementName: New_SoundBank
+        ObjectType: 7
+        guid: eb6a2129dc44b64baeea7ea4ee64e37a
+      Path: SoundBanks\Default Work Unit\New_SoundBank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +108,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1be4a3b5a645ff4e8c469ea02be553cb
     GuidInternal: 
-    m_lastTime: -8584446780330113382
-    List: []
+    m_lastTime: -8584446759874385443
+    List:
+    - name: Play_emotional_guitar_loop_02_301396
+      guid: ea2a6f2780a75844893beea7d8ffb9aa
+      id: 2879116096
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1be4a3b5a645ff4e8c469ea02be553cb
+      - ElementName: Play_emotional_guitar_loop_02_301396
+        ObjectType: 3
+        guid: ea2a6f2780a75844893beea7d8ffb9aa
+      Path: Events\Default Work Unit\Play_emotional_guitar_loop_02_301396
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +184,7 @@ MonoBehaviour:
     m_lastTime: -8584446780330023824
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 090000000a000000
+  ExpandedWaapiItemIds: 0500000006000000090000000a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

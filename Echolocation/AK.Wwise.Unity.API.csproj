@@ -203,6 +203,7 @@
     <Compile Include="Assets\Wwise\API\Runtime\Generated\Common\AkMIDIEventCallbackInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Wwise\API\Runtime\Plugins\Windows\x86_64\DSP\phonon.dll" />
     <None Include="Assets\Wwise\API\Runtime\Plugins\Windows\x86_64\DSP\SteamAudioWwise.dll" />
     <None Include="Assets\Wwise\API\Runtime\AK.Wwise.Unity.API.asmdef" />
     <None Include="Assets\Wwise\API\Runtime\Plugins\Windows\x86_64\Release\AkSoundEngine.dll" />

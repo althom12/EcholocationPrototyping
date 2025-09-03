@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7D592DA7-F3D8-CE59-2204-44ACD21A22FC}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{52CE015E-9218-F6CD-E8EE-65F673AB5740}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -26,10 +26,33 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Type="User" Language="SFX" Hash="{43D416DD-2EA1-59D7-3C18-8DBEEE57B583}">
+		<SoundBank Id="4072029455" Type="User" Language="SFX" Hash="{D72B1E02-ADD2-0A70-00D1-F3AB8AAB6BE8}">
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
+			<Media>
+				<File Id="184367809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>emotional-guitar-loop-02-301396.wav</ShortName>
+					<CachePath>SFX/emotional-guitar-loop-02-301396_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="198026755" Name="Steam Audio Spatializer (Custom)" LibName="Steam Audio Spatializer" LibId="1987253171"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2879116096" Name="Play_emotional_guitar_loop_02_301396" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="184367809"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="198026755"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{95986594-EA8B-89BD-F5A1-81C6DB221864}</FileHash>
+	<FileHash>{61923CCC-A065-C565-722C-004E5669B4CC}</FileHash>
 </SoundBanksInfo>
