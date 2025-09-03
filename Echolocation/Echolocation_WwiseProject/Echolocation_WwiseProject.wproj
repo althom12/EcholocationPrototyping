@@ -21,18 +21,18 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjIwOTU1IiBtYXNrPSJKU0dWMTY2NCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMDEtMDEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMDEtMDEiICAvPjxsaWNlbnNlIGlkPSI3MCIgbmFtZT0iSW5kaWUgTGljZW5zZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNi0wMS0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjYiIG5hbWU9Ild3aXNlIENvbnZvbHV0aW9uIFJldmVyYiIgdHlwZT0iMSIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNS0xMS0wMiIgIC8+PGxpY2Vuc2UgaWQ9IjQ5IiBuYW1lPSJXd2lzZSBSZWZsZWN0IiB0eXBlPSIxIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDI1LTExLTAyIiAgLz48cGx1Z2luIGlkPSI4MzIzMDc1IiBuYW1lPSJXd2lzZSBDb252b2x1dGlvbiBSZXZlcmIiIGxpY2Vuc2U9IjYiIC8+PC9wcm9qZWN0Pg==|OBdCL01oWYm2GDXxYfQgt5oAhw8grkyZMwu2g5STb2OLT7yJkpITJeBYbCewpvvzGCMq82YeU+qiG1iM2UZCy6EKzeYffiKf/4kmZC1YCler0L5g2DOzT4mFgsXb7qmy+6Oje7Dt76Vvi4rIiCzppo0cQCE09H9ZJyLBVHDJAMK1cazc6zadSOcd03a0WsEj24UHhg1ihrN0CsfMo7UTNJPB/73ykNAhS/irW2Ifr+28o15Ta55uGOtkwEWPimjmoeJ6G8IG62lzq7ANjUf7/1Q1UPNlXtQGBHlZ8pkQJCsHZaFpVUgZ8jkPrp7al/PVrRIf8X1ijg//b87ukXb+kw=="/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="../../Echolocation/Assets/StreamingAssets/Audio/GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
@@ -62,6 +62,10 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_main|Build=8789|VersionName=v2023.1.15|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
