@@ -731,7 +731,10 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: WWISE_ADDRESSABLES_23_1_OR_LATER
+    Android: STEAMAUDIO_ENABLED
+    Standalone: WWISE_ADDRESSABLES_23_1_OR_LATER;STEAMAUDIO_ENABLED
+    WebGL: STEAMAUDIO_ENABLED
+    iPhone: STEAMAUDIO_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
