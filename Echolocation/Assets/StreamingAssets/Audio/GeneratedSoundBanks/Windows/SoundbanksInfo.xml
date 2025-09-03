@@ -26,7 +26,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Type="User" Language="SFX" Hash="{D72B1E02-ADD2-0A70-00D1-F3AB8AAB6BE8}">
+		<SoundBank Id="4072029455" Type="User" Language="SFX" Hash="{ED2A68C9-1B35-A44F-E947-061DF543F286}">
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 			<Media>
@@ -41,7 +41,7 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="2879116096" Name="Play_emotional_guitar_loop_02_301396" DurationType="Infinite">
+				<Event Id="2879116096" Name="Play_emotional_guitar_loop_02_301396" MaxAttenuation="200" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="184367809"/>
 					</MediaRefs>
@@ -54,5 +54,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A6109AEB-81EE-2A76-30B8-88F45716679C}</FileHash>
+	<FileHash>{D5B4423D-A725-BF92-734D-127A9216BB7A}</FileHash>
 </SoundBanksInfo>
