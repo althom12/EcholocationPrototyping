@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 40ed2316c6589945a10f6ca3a5496fc0
     GuidInternal: 
-    m_lastTime: -8584446780330092872
+    m_lastTime: -8584446707142888916
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -124,7 +124,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ea2a6f2780a75844893beea7d8ffb9aa
       Path: Events\Default Work Unit\Play_emotional_guitar_loop_02_301396
-      maxAttenuation: 0
+      maxAttenuation: 200
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
